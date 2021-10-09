@@ -1,4 +1,4 @@
-package domain;
+package ru.netology.domain;
 
 public class Post {
     private CommentsInfo commentsInfo;
@@ -59,7 +59,7 @@ public class Post {
         return copyright;
     }
 
-    public void setCopyright(Copyright commentsInfo) {
+    public void setCopyright(Copyright copyright) {
         this.copyright = copyright;
     }
 
